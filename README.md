@@ -23,4 +23,5 @@ Optional:
 2. Make sure `sxhkd` is running and the set binding is not used by any other program.
 
 ## Notes
-You could change `bash` for `sh` but you will miss out on tab completion.
+* You could change `bash` for `sh` but you will miss out on tab completion.
+* Combining this with [`pam-gnupg`](https://github.com/cruegge/pam-gnupg) makes everything even faster. 
