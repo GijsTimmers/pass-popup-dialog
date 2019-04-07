@@ -1,5 +1,7 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 # pass-popup-dialog
-A small script to have a pass dialog pop up, for fast copy-pasting of passwords
+A small script to have a `pass` dialog pop up, for fast copy-pasting of passwords.
 
 ## Dependencies
 * `pass`
