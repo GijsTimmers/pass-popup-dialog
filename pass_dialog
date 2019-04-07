@@ -1,0 +1,10 @@
+#!/usr/bin/expect -f
+#exp_internal 1  ## uncomment to debug applicatoin
+
+set timeout -1
+spawn -noecho bash
+expect "$ "
+send "pass -c " 
+interact -nobuffer \r return
+expect "Copied"
+sleep 0.05
